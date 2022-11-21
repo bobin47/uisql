@@ -121,6 +121,20 @@ section {
   color: #fff;
 }
 
+.header .icons .btn-signup {
+  font-size: 1.5rem;
+  color: black;
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 7px;
+  background-color: #eee;
+}
+
+.header .icons .btn-signup:hover {
+  background: var(--orange);
+  color: #fff;
+}
+
 #menu-btn {
   display: none;
 }
@@ -423,17 +437,16 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(120deg, #FC575E, #F7B42C);
+  background: linear-gradient(120deg, #fc575e, #f7b42c);
   box-shadow: 6px 8px 11px #888888;
-  
 }
 
-.cover .formDangNhap h1{
+.cover .formDangNhap h1 {
   font-size: 40px;
   text-align: center;
 }
 
-.cover .formDangNhap form label{
+.cover .formDangNhap form label {
   font-size: 15px;
   color: white;
 }
@@ -443,16 +456,13 @@ section {
   margin-left: 10px;
   margin-top: 20px;
   border-radius: 10px;
-
 }
 
-.cover .formDangNhap form  button{
+.cover .formDangNhap form button {
   background-color: white;
   color: black;
   border: none;
   margin-top: 30px;
 }
-
-
 
 /* DANG NHAP */
