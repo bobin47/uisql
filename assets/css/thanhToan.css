@@ -48,18 +48,17 @@
 }
 
 .pay .total {
+  background-color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   margin-top: 10px;
-  position: absolute;
-  right: 10%;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: white;
-  padding: 15px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
   width: 80%;
- 
+  margin-left: 10%;
+  margin-bottom: 50px;
 }
 
 .pay .total .btn-thanhtoan {

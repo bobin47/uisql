@@ -39,10 +39,7 @@
 }
 
 .inf {
-  position: absolute;
-  width: 100%;
-  top: 18%;
-  /* margin-top: 200px; */
+  margin: 140px 0 80px 0;
 }
 
 .grid-right .contact .title {
@@ -51,21 +48,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
-.grid-right .contact .title a{
-  background-color: #EEEEEE;
+.grid-right .contact .title a {
+  background-color: #eeeeee;
   padding: 10px;
-  color:black;
-  border-radius: 5px ;
+  color: black;
+  border-radius: 5px;
   box-shadow: 7px 6px 13px 0px grey;
-};
+}
 
-.grid-right .contact .title a:hover{
-  background-color: #FF7800;
+.grid-right .contact .title a:hover {
+  background-color: #ff7800;
   padding: 10px;
   color: #fff;
-  border-radius: 5px ;
+  border-radius: 5px;
 }
 
 .grid-right .contact .content p {
