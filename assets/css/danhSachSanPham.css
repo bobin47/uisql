@@ -6,8 +6,28 @@
   margin-bottom: 50px;
 }
 
-.content h1 {
-  text-align: center;
+.content .content-top {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+
+.content .content-top h1{
+  font-size: 25px;
+}
+
+.content .content-top .search .from button{
+  background-color: #e19452;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.content .content-top .search .from input {
+ padding: 15px;
+ width: 250px;
+ border-radius: 20px;
 }
 
 .content .productList {
@@ -58,4 +78,27 @@
 }
 
 
+.content-bottom {
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.content-bottom .pagination li {
+display: inline;
+}
+
+.content-bottom .pagination li a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+  background-color: #dfb997;
+  border-radius: 5px;
+}
+
+.content-bottom .pagination li .active{
+  background: #F9880E;
+  color: white;
+}
 /*  */

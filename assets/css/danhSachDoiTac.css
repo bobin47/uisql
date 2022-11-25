@@ -6,12 +6,28 @@
 }
 
 .partner h1 {
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 25px;
 }
 
-.partner .content {
+.partner .content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.partner .content-top .search .from button{
+  background-color: #e19452;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.partner .content-top .search .from input {
+ padding: 15px;
+ width: 250px;
+ border-radius: 20px;
 }
 
 .partner .content .item {
@@ -62,4 +78,27 @@
   color: white;
   padding: 5px;
   border-radius: 10px;
+}
+
+.content-bottom {
+  text-align: center;
+  font-size: 17px;
+}
+
+.content-bottom .pagination li {
+display: inline;
+}
+
+.content-bottom .pagination li a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+  background-color: #dfb997;
+  border-radius: 5px;
+}
+
+.content-bottom .pagination li .active{
+  background: #F9880E;
+  color: white;
 }
