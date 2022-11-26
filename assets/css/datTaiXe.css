@@ -1,0 +1,49 @@
+@import "../css/header.css";
+@import "../css/footer.css";
+@import "../css/reset.css";
+
+.body{
+   margin-bottom: 30px;
+}
+
+.body h1{
+margin-top: 100px;
+text-align: center;
+}
+
+.body .content {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.body .content img {
+    width: 200px;
+    height: 200px;
+}
+
+.body .content .donHang h3{
+    font-size: 30px;
+}
+
+.body .content .donHang .tilte{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+
+.body .content .donHang .tilte p {
+    margin-bottom: 10px;
+}
+
+.body .content .donHang .tilte a{
+    padding: 5px;
+    background-color: #F62323;
+    color: white;
+    border-radius: 5px;
+}
+
+

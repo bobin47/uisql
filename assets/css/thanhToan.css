@@ -3,7 +3,7 @@
 @import "../css/reset.css";
 
 .pay {
-  margin-top: 150px;
+  margin-top: 120px;
   font-size: 20px;
 }
 
@@ -69,4 +69,41 @@
   background-color: rgb(246, 35, 35);
   border-radius: 5px;
   cursor: pointer;
+}
+
+.thongTinGiaoHang{
+  width: 80%;
+ background-color: white;
+ margin: 0 auto;
+ padding: 15px;
+ margin-top: 5px;
+}
+
+.thongTinGiaoHang h3{
+text-align: center;
+margin-bottom: 15px;
+}
+
+.thongTinGiaoHang form{
+  margin-left: 30%;
+}
+
+.thongTinGiaoHang form .tenNguoiNhan input{
+  background-color: #eeeeee;
+  width: 300px;
+  margin-left: 40px;
+  padding: 10px 30px 10px 10px;
+  border-radius: 7px;
+}
+.thongTinGiaoHang form .sdtNguoiNhan{
+  margin-top: 5px;
+}
+
+.thongTinGiaoHang form .sdtNguoiNhan input{
+  background-color: #eeeeee;
+  width: 300px;
+  margin-left: 145px;
+  padding: 10px 30px 10px 10px;
+  border-radius: 7px;
+
 }
