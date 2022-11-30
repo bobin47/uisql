@@ -95,9 +95,11 @@ margin-bottom: 15px;
   padding: 10px 30px 10px 10px;
   border-radius: 7px;
 }
+
 .thongTinGiaoHang form .sdtNguoiNhan{
   margin-top: 5px;
 }
+
 
 .thongTinGiaoHang form .sdtNguoiNhan input{
   background-color: #eeeeee;
@@ -106,4 +108,17 @@ margin-bottom: 15px;
   padding: 10px 30px 10px 10px;
   border-radius: 7px;
 
+}
+
+
+.thongTinGiaoHang form .diaChiNguoiNhan{
+  margin-top: 5px;
+}
+
+.thongTinGiaoHang form .diaChiNguoiNhan input{
+  background-color: #eeeeee;
+  width: 300px;
+  margin-left: 120px;
+  padding: 10px 30px 10px 10px;
+  border-radius: 7px;
 }
